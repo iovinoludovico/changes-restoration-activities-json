@@ -1,17 +1,32 @@
 [
-    {
-        "Activity": "Stuccatura del ....",
-        "Intervention_Type": "Pulitura meccanica",
-        "Status":"Completed",
-        "Materials Used":["x","y","z"],
-        "Issues_Observed":"",
-        "Findings": "test2",
-        "Sentiment": "Negative",
-        "Date": "2025-06-24T19:35:00.000Z",
-        "Img_before": "test2",
-        "Img_after": "test3",
-        "Room": "Parete Nord - Sezione superiore",
-        "Operator": "Mario Pelliccione",
-        "Keywords extracted":["pulitura","x","y"]
-    }
+  {
+    "Activity": "Stuccatura del bordo sinistro con micro fessure visibili",
+    "Intervention_Type": "Stuccatura manuale",
+    "Status": "Completed",
+    "Materials Used": ["Stucco a base calce", "Spatola", "Pennello fine"],
+    "Issues_Observed": ["Fessurazione diffusa", "Perdita di adesione con supporto"],
+    "Findings": "Lo stucco precedente si era distaccato; è stato rimosso e sostituito.",
+    "Sentiment": "Neutral",
+    "Date": "2025-06-23T14:10:00.000Z",
+    "Img_before": "stuccatura_before_2025-06-23.jpg",
+    "Img_after": "stuccatura_after_2025-06-23.jpg",
+    "Room": "Parete Nord - Sezione inferiore",
+    "Operator": "Mario Pelliccione",
+    "Keywords extracted": ["stuccatura", "fessurazione", "distacco"]
+  },
+  {
+    "Activity": "Pulitura meccanica del volto dell’angelo",
+    "Intervention_Type": "Pulitura meccanica",
+    "Status": "Completed",
+    "Materials Used": ["Bisturi", "Acqua deionizzata", "Cotone idrofilo"],
+    "Issues_Observed": "Residui neri persistenti su zone pigmentate",
+    "Findings": "La superficie è stata pulita meccanicamente rimuovendo residui senza intaccare il pigmento originale.",
+    "Sentiment": "Positive",
+    "Date": "2025-06-24T11:25:00.000Z",
+    "Img_before": "pulitura_volto_before_2025-06-24.jpg",
+    "Img_after": "pulitura_volto_after_2025-06-24.jpg",
+    "Room": "Parete Nord - Sezione superiore",
+    "Operator": "Mario Pelliccione",
+    "Keywords extracted": ["pulitura", "pigmento", "residui"]
+  }
 ]
